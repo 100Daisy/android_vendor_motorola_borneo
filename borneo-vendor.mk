@@ -168,6 +168,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/borneo/proprietary/vendor/firmware/AbovCapSense.BIN:$(TARGET_COPY_OUT_VENDOR)/firmware/AbovCapSense.BIN \
     vendor/motorola/borneo/proprietary/vendor/firmware/AbovCapSense_4.BIN:$(TARGET_COPY_OUT_VENDOR)/firmware/AbovCapSense_4.BIN \
     vendor/motorola/borneo/proprietary/vendor/firmware/FT8006U_Pramboot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FT8006U_Pramboot.bin \
+    vendor/motorola/borneo/proprietary/vendor/firmware/aw882xx_mono.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_mono.bin \
+    vendor/motorola/borneo/proprietary/vendor/firmware/aw882xx_spk_reg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_spk_reg.bin \
     vendor/motorola/borneo/proprietary/vendor/firmware/focaltech-djnboe-ft8009-07-000-borneo.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech-djnboe-ft8009-07-000-borneo.bin \
     vendor/motorola/borneo/proprietary/vendor/firmware/ilitek_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ilitek_fw.bin \
     vendor/motorola/borneo/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \

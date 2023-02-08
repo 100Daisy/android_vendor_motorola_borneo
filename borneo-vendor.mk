@@ -169,6 +169,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/borneo/proprietary/vendor/firmware/focaltech-djnboe-ft8009-07-000-borneo.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech-djnboe-ft8009-07-000-borneo.bin \
     vendor/motorola/borneo/proprietary/vendor/firmware/ilitek_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ilitek_fw.bin \
     vendor/motorola/borneo/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \
+    vendor/motorola/borneo/proprietary/vendor/firmware/tm_novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tm_novatek_ts_fw.bin \
     vendor/motorola/borneo/proprietary/vendor/firmware/novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_mp.bin \
     vendor/motorola/borneo/proprietary/vendor/lib/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom.so \
     vendor/motorola/borneo/proprietary/vendor/lib/camera/com.mot.eeprom.mot_gt24p64b_ov02b10_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_gt24p64b_ov02b10_eeprom.so \

@@ -8,14 +8,20 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/motorola/borneo/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets \
     vendor/motorola/borneo/proprietary/vendor/bin/hw/motorola.hardware.camera.imgtuner@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.camera.imgtuner@1.0-service \
-    vendor/motorola/borneo/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
-    vendor/motorola/borneo/proprietary/vendor/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
-    vendor/motorola/borneo/proprietary/vendor/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Global_cal.acdb \
-    vendor/motorola/borneo/proprietary/vendor/etc/acdbdata/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Handset_cal.acdb \
-    vendor/motorola/borneo/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Hdmi_cal.acdb \
-    vendor/motorola/borneo/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Headset_cal.acdb \
-    vendor/motorola/borneo/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Speaker_cal.acdb \
-    vendor/motorola/borneo/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
+    vendor/motorola/borneo/proprietary/vendor/etc/acdbdata/borneo/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/borneo/Bluetooth_cal.acdb \
+    vendor/motorola/borneo/proprietary/vendor/etc/acdbdata/cebu/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/cebu/Bluetooth_cal.acdb \
+    vendor/motorola/borneo/proprietary/vendor/etc/acdbdata/borneo/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/borneo/General_cal.acdb \
+    vendor/motorola/borneo/proprietary/vendor/etc/acdbdata/cebu/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/cebu/General_cal.acdb \
+    vendor/motorola/borneo/proprietary/vendor/etc/acdbdata/borneo/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/borneo/Global_cal.acdb \
+    vendor/motorola/borneo/proprietary/vendor/etc/acdbdata/cebu/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/cebu/Global_cal.acdb \
+    vendor/motorola/borneo/proprietary/vendor/etc/acdbdata/borneo/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/borneo/Handset_cal.acdb \
+    vendor/motorola/borneo/proprietary/vendor/etc/acdbdata/cebu/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/cebu/Handset_cal.acdb \
+    vendor/motorola/borneo/proprietary/vendor/etc/acdbdata/borneo/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/borneo/Hdmi_cal.acdb \
+    vendor/motorola/borneo/proprietary/vendor/etc/acdbdata/cebu/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/cebu/Hdmi_cal.acdb \
+    vendor/motorola/borneo/proprietary/vendor/etc/acdbdata/borneo/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/borneo/Headset_cal.acdb \
+    vendor/motorola/borneo/proprietary/vendor/etc/acdbdata/cebu/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/cebu/Headset_cal.acdb \
+    vendor/motorola/borneo/proprietary/vendor/etc/acdbdata/borneo/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/borneo/Speaker_cal.acdb \
+    vendor/motorola/borneo/proprietary/vendor/etc/acdbdata/cebu/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/cebu/Speaker_cal.acdb \
     vendor/motorola/borneo/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd \
     vendor/motorola/borneo/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.2.0_0.1__3.0.0_0.0__eai_1.00.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.2.0_0.1__3.0.0_0.0__eai_1.00.pmd \
     vendor/motorola/borneo/proprietary/vendor/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd \
@@ -166,11 +172,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/borneo/proprietary/vendor/etc/thermal-engine-borneo.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-borneo.conf \
     vendor/motorola/borneo/proprietary/vendor/firmware/aw882xx_mono.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_mono.bin \
     vendor/motorola/borneo/proprietary/vendor/firmware/aw882xx_spk_reg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_spk_reg.bin \
-    vendor/motorola/borneo/proprietary/vendor/firmware/focaltech-djnboe-ft8009-07-000-borneo.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech-djnboe-ft8009-07-000-borneo.bin \
+    vendor/motorola/borneo/proprietary/vendor/firmware/focaltech_ts_fw_djnboe.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw_djnboe.bin \
     vendor/motorola/borneo/proprietary/vendor/firmware/ilitek_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ilitek_fw.bin \
-    vendor/motorola/borneo/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \
+    vendor/motorola/borneo/proprietary/vendor/firmware/djn_novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/djn_novatek_ts_fw.bin \
     vendor/motorola/borneo/proprietary/vendor/firmware/tm_novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tm_novatek_ts_fw.bin \
-    vendor/motorola/borneo/proprietary/vendor/firmware/novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_mp.bin \
     vendor/motorola/borneo/proprietary/vendor/lib/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom.so \
     vendor/motorola/borneo/proprietary/vendor/lib/camera/com.mot.eeprom.mot_gt24p64b_ov02b10_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_gt24p64b_ov02b10_eeprom.so \
     vendor/motorola/borneo/proprietary/vendor/lib/camera/com.mot.eeprom.mot_ov02b1b_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_ov02b1b_otp.so \
@@ -281,11 +286,22 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_borneo_ov02b1b_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_borneo_ov02b1b_ofilm.bin \
     vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_borneo_s5k4h7_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_borneo_s5k4h7_ofilm.bin \
     vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_borneo_s5kgm1st_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_borneo_s5kgm1st_ofilm.bin \
+    vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_cebu_ov02b10_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_cebu_ov02b10_ofilm.bin \
+    vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_cebu_ov02b1b_holitech.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_cebu_ov02b1b_holitech.bin \
+    vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_cebu_ov16a1q_qtech.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_cebu_ov16a1q_qtech.bin \
+    vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_cebu_ov64b_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_cebu_ov64b_ofilm.bin \
+    vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_cebu_ov64b_ofilm_evt.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_cebu_ov64b_ofilm_evt.bin \
+    vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_cebu_s5k4h7_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_cebu_s5k4h7_ofilm.bin \
     vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
     vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.qti.tuned.mot_borneo_ov02b10.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_borneo_ov02b10.bin \
     vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.qti.tuned.mot_borneo_ov02b1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_borneo_ov02b1b.bin \
     vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.qti.tuned.mot_borneo_s5k4h7.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_borneo_s5k4h7.bin \
     vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.qti.tuned.mot_borneo_s5kgm1st.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_borneo_s5kgm1st.bin \
+    vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.qti.tuned.mot_cebu_ov02b10.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_cebu_ov02b10.bin \
+    vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.qti.tuned.mot_cebu_ov02b1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_cebu_ov02b1b.bin \
+    vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.qti.tuned.mot_cebu_ov16a1q.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_cebu_ov16a1q.bin \
+    vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.qti.tuned.mot_cebu_ov64b.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_cebu_ov64b.bin \
+    vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.qti.tuned.mot_cebu_s5k4h7.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_cebu_s5k4h7.bin \
     vendor/motorola/borneo/proprietary/vendor/lib64/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.camx.chiiqutils.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv2.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv3.so \

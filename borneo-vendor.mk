@@ -27,6 +27,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/borneo/proprietary/vendor/etc/camera/dual_golden_depth.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/dual_golden_depth.bin \
     vendor/motorola/borneo/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/motorola/borneo/proprietary/vendor/etc/init/init.ets.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.ets.rc \
+    vendor/motorola/borneo/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
+    vendor/motorola/borneo/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/motorola/borneo/proprietary/vendor/etc/sensors/config/bengal_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_power_0.json \
     vendor/motorola/borneo/proprietary/vendor/etc/sensors/config/borneo_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/borneo_ak991x_0.json \
     vendor/motorola/borneo/proprietary/vendor/etc/sensors/config/borneo_ak991x_0_dvt1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/borneo_ak991x_0_dvt1.json \
@@ -168,9 +170,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/borneo/proprietary/vendor/etc/sensors/proto/tcs3708.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/tcs3708.proto \
     vendor/motorola/borneo/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/motorola/borneo/proprietary/vendor/etc/thermal-engine-borneo.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-borneo.conf \
+    vendor/motorola/borneo/proprietary/vendor/firmware/ICNL9911.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ICNL9911.bin \
     vendor/motorola/borneo/proprietary/vendor/firmware/aw882xx_mono.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_mono.bin \
     vendor/motorola/borneo/proprietary/vendor/firmware/aw882xx_spk_reg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_spk_reg.bin \
     vendor/motorola/borneo/proprietary/vendor/firmware/focaltech_ts_fw_djnboe.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw_djnboe.bin \
+    vendor/motorola/borneo/proprietary/vendor/firmware/focaltech_ts_fw_dsbj.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw_dsbj.bin \
     vendor/motorola/borneo/proprietary/vendor/firmware/ilitek_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ilitek_fw.bin \
     vendor/motorola/borneo/proprietary/vendor/firmware/djn_novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/djn_novatek_ts_fw.bin \
     vendor/motorola/borneo/proprietary/vendor/firmware/tm_novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tm_novatek_ts_fw.bin \
@@ -396,6 +400,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/borneo/proprietary/vendor/lib64/libofflinelog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libofflinelog.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/libopencv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopencv.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/libopestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopestriping.so \
+    vendor/motorola/borneo/proprietary/vendor/lib64/libpn557_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpn557_fw.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswregistrationalgo.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswvdec.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/libtfestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtfestriping.so \

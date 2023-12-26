@@ -29,6 +29,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/borneo/proprietary/vendor/etc/init/init.ets.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.ets.rc \
     vendor/motorola/borneo/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/motorola/borneo/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
+    vendor/motorola/borneo/proprietary/vendor/etc/sensors/config-cebu/borneo_icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config-cebu/borneo_icm4x6xx_0.json \
+    vendor/motorola/borneo/proprietary/vendor/etc/sensors/config-cebu/borneo_lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config-cebu/borneo_lsm6dso_0.json \
     vendor/motorola/borneo/proprietary/vendor/etc/sensors/config/bengal_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_power_0.json \
     vendor/motorola/borneo/proprietary/vendor/etc/sensors/config/borneo_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/borneo_ak991x_0.json \
     vendor/motorola/borneo/proprietary/vendor/etc/sensors/config/borneo_ak991x_0_dvt1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/borneo_ak991x_0_dvt1.json \

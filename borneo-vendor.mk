@@ -182,21 +182,36 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/borneo/proprietary/vendor/firmware/tm_novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tm_novatek_ts_fw.bin \
     vendor/motorola/borneo/proprietary/vendor/lib/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom.so \
     vendor/motorola/borneo/proprietary/vendor/lib/camera/com.mot.eeprom.mot_gt24p64b_ov02b10_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_gt24p64b_ov02b10_eeprom.so \
+    vendor/motorola/borneo/proprietary/vendor/lib/camera/com.mot.eeprom.mot_gt24p64b_ov16a1q_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_gt24p64b_ov16a1q_eeprom.so \
     vendor/motorola/borneo/proprietary/vendor/lib/camera/com.mot.eeprom.mot_ov02b1b_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_ov02b1b_otp.so \
+    vendor/motorola/borneo/proprietary/vendor/lib/camera/com.mot.eeprom.mot_ov64b_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_ov64b_otp.so \
     vendor/motorola/borneo/proprietary/vendor/lib/camera/com.mot.eeprom.mot_s5k4h7_otp_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_s5k4h7_otp_eeprom.so \
     vendor/motorola/borneo/proprietary/vendor/lib/camera/com.qti.sensor.mot_ov02b10.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.mot_ov02b10.so \
     vendor/motorola/borneo/proprietary/vendor/lib/camera/com.qti.sensor.mot_ov02b1b.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.mot_ov02b1b.so \
+    vendor/motorola/borneo/proprietary/vendor/lib/camera/com.qti.sensor.mot_ov16a1q.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.mot_ov16a1q.so \
+    vendor/motorola/borneo/proprietary/vendor/lib/camera/com.qti.sensor.mot_ov64b.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.mot_ov64b.so \
     vendor/motorola/borneo/proprietary/vendor/lib/camera/com.qti.sensor.mot_s5k4h7.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.mot_s5k4h7.so \
     vendor/motorola/borneo/proprietary/vendor/lib/camera/com.qti.sensor.mot_s5kgm1st.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.mot_s5kgm1st.so \
     vendor/motorola/borneo/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_borneo_ov02b10_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_borneo_ov02b10_ofilm.bin \
     vendor/motorola/borneo/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_borneo_ov02b1b_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_borneo_ov02b1b_ofilm.bin \
     vendor/motorola/borneo/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_borneo_s5k4h7_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_borneo_s5k4h7_ofilm.bin \
     vendor/motorola/borneo/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_borneo_s5kgm1st_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_borneo_s5kgm1st_ofilm.bin \
+    vendor/motorola/borneo/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_cebu_ov02b10_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_cebu_ov02b10_ofilm.bin \
+    vendor/motorola/borneo/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_cebu_ov02b1b_holitech.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_cebu_ov02b1b_holitech.bin \
+    vendor/motorola/borneo/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_cebu_ov16a1q_qtech.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_cebu_ov16a1q_qtech.bin \
+    vendor/motorola/borneo/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_cebu_ov64b_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_cebu_ov64b_ofilm.bin \
+    vendor/motorola/borneo/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_cebu_ov64b_ofilm_evt.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_cebu_ov64b_ofilm_evt.bin \
+    vendor/motorola/borneo/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_cebu_s5k4h7_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_cebu_s5k4h7_ofilm.bin \
     vendor/motorola/borneo/proprietary/vendor/lib/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.default.bin \
     vendor/motorola/borneo/proprietary/vendor/lib/camera/com.qti.tuned.mot_borneo_ov02b10.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_borneo_ov02b10.bin \
     vendor/motorola/borneo/proprietary/vendor/lib/camera/com.qti.tuned.mot_borneo_ov02b1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_borneo_ov02b1b.bin \
     vendor/motorola/borneo/proprietary/vendor/lib/camera/com.qti.tuned.mot_borneo_s5k4h7.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_borneo_s5k4h7.bin \
     vendor/motorola/borneo/proprietary/vendor/lib/camera/com.qti.tuned.mot_borneo_s5kgm1st.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_borneo_s5kgm1st.bin \
+    vendor/motorola/borneo/proprietary/vendor/lib/camera/com.qti.tuned.mot_cebu_ov02b10.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_cebu_ov02b10.bin \
+    vendor/motorola/borneo/proprietary/vendor/lib/camera/com.qti.tuned.mot_cebu_ov02b1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_cebu_ov02b1b.bin \
+    vendor/motorola/borneo/proprietary/vendor/lib/camera/com.qti.tuned.mot_cebu_ov16a1q.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_cebu_ov16a1q.bin \
+    vendor/motorola/borneo/proprietary/vendor/lib/camera/com.qti.tuned.mot_cebu_ov64b.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_cebu_ov64b.bin \
+    vendor/motorola/borneo/proprietary/vendor/lib/camera/com.qti.tuned.mot_cebu_s5k4h7.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_cebu_s5k4h7.bin \
     vendor/motorola/borneo/proprietary/vendor/lib/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.camx.chiiqutils.so \
     vendor/motorola/borneo/proprietary/vendor/lib/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv2.so \
     vendor/motorola/borneo/proprietary/vendor/lib/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv3.so \
@@ -274,15 +289,21 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/borneo/proprietary/vendor/lib/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswvdec.so \
     vendor/motorola/borneo/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
     vendor/motorola/borneo/proprietary/vendor/lib/motorola.hardware.camera.imgtuner@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.camera.imgtuner@1.0.so \
+    vendor/motorola/borneo/proprietary/vendor/lib/rfsa/adsp/libsns_device_mode_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsns_device_mode_skel.so \
+    vendor/motorola/borneo/proprietary/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsns_low_lat_stream_skel.so \
     vendor/motorola/borneo/proprietary/vendor/lib/vendor.egistec.hardware.fingerprint@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.egistec.hardware.fingerprint@2.0.so \
     vendor/motorola/borneo/proprietary/vendor/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so \
     vendor/motorola/borneo/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p64b_ov02b10_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p64b_ov02b10_eeprom.so \
+    vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p64b_ov16a1q_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p64b_ov16a1q_eeprom.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_ov02b1b_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_ov02b1b_otp.so \
+    vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_ov64b_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_ov64b_otp.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_s5k4h7_otp_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_s5k4h7_otp_eeprom.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.qti.sensor.mot_ov02b10.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_ov02b10.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.qti.sensor.mot_ov02b1b.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_ov02b1b.so \
+    vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.qti.sensor.mot_ov16a1q.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_ov16a1q.so \
+    vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.qti.sensor.mot_ov64b.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_ov64b.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.qti.sensor.mot_s5k4h7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_s5k4h7.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.qti.sensor.mot_s5kgm1st.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_s5kgm1st.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_borneo_ov02b10_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_borneo_ov02b10_ofilm.bin \
@@ -399,6 +420,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/borneo/proprietary/vendor/lib64/libmmcamera_mfnr_t4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_mfnr_t4.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/libmot_afd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmot_afd.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/libmot_lux_standardization.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmot_lux_standardization.so \
+    vendor/motorola/borneo/proprietary/vendor/lib64/libmotext_inf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmotext_inf.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/libofflinelog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libofflinelog.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/libopencv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopencv.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/libopestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopestriping.so \
@@ -408,6 +430,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/borneo/proprietary/vendor/lib64/libtfestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtfestriping.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/motorola.hardware.camera.imgtuner@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.camera.imgtuner@1.0.so \
+    vendor/motorola/borneo/proprietary/vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_device_mode_skel.so \
+    vendor/motorola/borneo/proprietary/vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/vendor.egistec.hardware.fingerprint@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.egistec.hardware.fingerprint@2.0.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so \
